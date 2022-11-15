@@ -1,10 +1,20 @@
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Carousel from "@src/components/competences";
+import Link from "next/link";
+import Image from "next/image";
 
 let styles = {};
 
 let Works = () => {
-  return <div></div>;
+  return (
+    <div>
+      <div className="flex items-center mt-10">
+        <h1 className="text-customgreen pl-7 text-2xl pr-3">
+          04.
+          <span className="text-customsky font-bold pl-2">Mon Entreprise</span>
+        </h1>
+        <hr className="text-customsky w-40" />
+      </div>
+    </div>
+  );
 };
 
 export default Works;

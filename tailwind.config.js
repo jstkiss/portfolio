@@ -7,7 +7,6 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      ...colors,
       colors: {
       customgreen: "#64ffda",
       customsky: "#ccd6f6",
@@ -38,6 +37,11 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      },
+      backgroundImage: {
+        'booki': "url('/booki.png')",
+        'service': "url('/service.png')",
+
       },
     },
   },

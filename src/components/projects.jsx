@@ -8,9 +8,7 @@ import twitter from "../assets/img/twitter.png";
 import { Twitter } from "@mui/icons-material";
 import folder from "@src/assets/img/folder.png";
 
-let styles = {
-  background: "../assets/img/booki.png",
-};
+let styles = {};
 
 const Projects = () => {
   return (
@@ -22,54 +20,100 @@ const Projects = () => {
         </h1>
         <hr className="text-customsky w-52" />
       </div>
-      <div class="flex justify-center ">
-        {/* <div class="rounded-lg shadow-lg bg-customblue border border-customgreen max-w-sm">
-          <Link href="#">
-            <a className="rounded-t-lg">
-              <Image className="rounded-t-lg" src={Booki} alt="" />
-            </a>
-          </Link>
-          <div class="pl-6 pr-6">
-            <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-            <p class="text-customsky text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
-            </p>
-            <button
-              type="button"
-              class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Button
-            </button>
-          </div>
-        </div> */}
-      </div>
-      <div className="p-8">
-        <div className="rounded-lg shadow-lg bg-customblue border border-customgreen max-w-sm">
-          <div className="p-6">
-            <h1 className="text-customgreen text-1xl font-medium mb-2">
-              Premier Projet
-            </h1>
-            <h1 className="text-white text-2xl font-medium mb-2">
-              Projet Booki
-            </h1>
-            <p className="text-customsky text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
-            </p>
-            <p className="text-customgreen text-base mb-4">
-              Techno utilisé: HTML/CSS
-            </p>
-            <Link href="/">
-              <div className="flex items-center">
-                <div className="w-12">
-                  <Image href="#" src={git} alt="git" />
-                </div>
-                <div className="w-10">
-                  <Image href="#" src={folder} alt="git" />
-                </div>
+      <div className="grid grid-rows-3">
+        <div className="pl-8 pr-8 mt-10">
+          <div className="bg-booki">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+              <div className="p-6 ">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Premier Projet
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Projet Booki
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card&apos;s content.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">Html/Css</span>
+                </p>
+                <Link href="/">
+                  <div className="flex items-center">
+                    <div className="w-12">
+                      <Image href="#" src={git} alt="git" />
+                    </div>
+                    <div className="w-10">
+                      <Image href="#" src={folder} alt="git" />
+                    </div>
+                  </div>
+                </Link>
               </div>
-            </Link>
+            </div>
+          </div>
+        </div>
+        <div className="p-8">
+          <div className="bg-service">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Meta-Dev
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Projet Meta-Dev
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card&apos;s content.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">
+                    Js/Webpack/Tailwind/Suite Adobe/Figma
+                  </span>
+                </p>
+                <Link href="/">
+                  <div className="flex items-center">
+                    <div className="w-12">
+                      <Image href="#" src={git} alt="git" />
+                    </div>
+                    <div className="w-10">
+                      <Image href="#" src={folder} alt="git" />
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-8">
+          <div>
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Jeux vidéo
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  CultureMax
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card&apos;s content.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">Suit Adobe/Html/Css</span>
+                </p>
+                <Link href="/">
+                  <div className="flex items-center">
+                    <div className="w-10">
+                      <Image href="#" src={folder} alt="git" />
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
