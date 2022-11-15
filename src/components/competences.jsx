@@ -13,6 +13,10 @@ import Sql from "@src/assets/img/Sql.png";
 import Nodejs from "@src/assets/img/Nodejs.png";
 import Git from "@src/assets/img/Git.png";
 import Npm from "@src/assets/img/Npm.png";
+import photoshop from "@src/assets/img/photoshop.jpg";
+import premiere from "@src/assets/img/PremierePro.png";
+import Illustrator from "@src/assets/img/Illustrator.png";
+import { Button, Grid } from "@nextui-org/react";
 
 let styles = {};
 
@@ -20,67 +24,75 @@ const Competences = () => {
   return (
     <div>
       <div className="flex items-center mt-10">
-        <h1 className="text-customgreen pl-7 text-1xl pr-3">
+        <h1 className="text-customgreen pl-7 text-2xl pr-3">
           02.
           <span className="text-customsky font-bold pl-2">Mes Compétences</span>
         </h1>
-        <hr className="text-customsky w-44" />
+        <hr className="text-customsky w-32" />
       </div>
       <section className="text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-customgreen hover:shadow-customgreen">
-              <h2 className="mt-4 text-xl flex j font-bold text-customsky">
-                Front-End
-              </h2>
-              <div className="mt-1 text-sm text-white grid grid-cols-3 grid-rows-2">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:border-customgreen hover:shadow-customgreen">
+              <div className="mt-1 text-sm text-white grid grid-cols-3 grid-rows-2 items-center">
                 <div className="w-20">
-                <Image src={Html} alt=""/>
+                  <Image src={Html} alt="html" />
                 </div>
                 <div className="w-20">
-                <Image src={Javascript} alt=""/>
+                  <Image src={Javascript} alt="js" />
                 </div>
                 <div className="w-20">
-                <Image src={Reactjs} alt=""/>
+                  <Image src={Reactjs} alt="react" />
                 </div>
                 <div className="w-32">
-                <Image src={Nextjs} alt=""/>
+                  <Image src={Nextjs} alt="next" />
                 </div>
                 <div className="w-20">
-                <Image src={Webpack} alt=""/>
+                  <Image src={Webpack} alt="web" />
                 </div>
                 <div className="w-20">
-                <Image src={Tailwind} alt=""/>
+                  <Image src={Tailwind} alt="tail" />
                 </div>
               </div>
             </div>
-            <div className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-customgreen hover:shadow-customgreen">
-              <h2 className="mt-4 text-xl font-bold text-customsky">
-                Back-End
-              </h2>
-              <div className="mt-1 text-sm text-white grid grid-cols-2 grid-rows-2">
-                <div>
-                  <p>COUCOU</p>
+            <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:border-customgreen hover:shadow-customgreen">
+              <div className="mt-1 text-sm text-white grid grid-cols-3 grid-rows-2 items-center">
+                <div className="w-20">
+                  <Image src={Php} alt="html" />
                 </div>
-                <div>
-                  <p>COUCOU</p>
+                <div className="w-20">
+                  <Image src={Sql} alt="js" />
                 </div>
-                <div>
-                  <p>COUCOU</p>
+                <div className="w-20">
+                  <Image src={Nodejs} alt="react" />
                 </div>
-                <div>
-                  <p>COUCOU</p>
+                <div className="w-32">
+                  <Image src={Nextjs} alt="next" />
+                </div>
+                <div className="w-20">
+                  <Image src={Webpack} alt="web" />
+                </div>
+                <div className="w-20">
+                  <Image src={Tailwind} alt="tail" />
+                </div>
+              </div>
+            </div>
+            <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:border-customgreen hover:shadow-customgreen">
+              <div className="mt-1 text-sm text-white grid grid-cols-3 selection:items-center">
+                <div className="w-20">
+                  <Image src={photoshop} alt="html" />
+                </div>
+                <div className="w-20">
+                  <Image src={premiere} alt="js" />
+                </div>
+                <div className="w-20">
+                  <Image src={Illustrator} alt="react" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="mt-12 text-center">
-            <a
-              href="#"
-              class="mt-8 inline-flex items-center rounded border border-customgreen px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-pink-500"
-            >
-              <span class="text-sm font-medium">Voir plus</span>
-            </a>
+          <div>
+
           </div>
         </div>
       </section>
