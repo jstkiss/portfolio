@@ -9,7 +9,7 @@ import { Twitter } from "@mui/icons-material";
 import folder from "@src/assets/img/folder.png";
 
 let styles = {
-  background:"../assets/img/booki.png",
+  background: "../assets/img/booki.png",
 };
 
 const Projects = () => {
@@ -61,9 +61,11 @@ const Projects = () => {
               Techno utilisé: HTML/CSS
             </p>
             <Link href="/">
-              <div className="w-16 flex items-center">
-                <Image href="#" src={git} alt="git" />
-                <div className="w-16">
+              <div className="flex items-center">
+                <div className="w-12">
+                  <Image href="#" src={git} alt="git" />
+                </div>
+                <div className="w-10">
                   <Image href="#" src={folder} alt="git" />
                 </div>
               </div>
