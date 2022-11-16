@@ -10,11 +10,12 @@ import folder from "@src/assets/img/folder.png";
 import { useEffect } from "react";
 import Aos from "aos";
 
+
 let styles = {};
 
 const Projects = () => {
   return (
-    <div>
+    <div className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36">
       <div className="flex items-center mt-10">
         <h1 className="text-customgreen pl-7 text-2xl pr-3">
           03.
@@ -114,35 +115,6 @@ const Projects = () => {
                     <div className="w-12">
                       <Image href="#" src={git} alt="git" />
                     </div>
-                    <div className="w-10">
-                      <Image href="#" src={folder} alt="git" />
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="p-8">
-          <div>
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
-              <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
-                  Jeux vidéo
-                </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
-                  CultureMax
-                </h1>
-                <p className="text-customsky text-base mb-4">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&apos;s content.
-                </p>
-                <p className="text-white text-base mb-4">
-                  Techno utilisé : <br />
-                  <span className="text-customgreen">Suit Adobe/Html/Css</span>
-                </p>
-                <Link href="/">
-                  <div className="flex items-center">
                     <div className="w-10">
                       <Image href="#" src={folder} alt="git" />
                     </div>

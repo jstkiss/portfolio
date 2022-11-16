@@ -3,6 +3,7 @@ import "@src/assets/css/styles.css";
 import { useEffect } from "react";
 import Aos from "aos";
 
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({

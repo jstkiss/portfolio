@@ -1,5 +1,6 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 import Navbar from "@src/components/navbar";
+import Iframe from "react-iframe";
 
 // let styles = {};
 

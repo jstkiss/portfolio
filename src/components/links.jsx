@@ -14,18 +14,18 @@ let styles = {
 const Links = () => {
   return (
     <div>
-      <aside className="xl:bottom-0 xl:h-52 xl:w-full xl:fixed">
-        <div className="xl:w-12 ">
-          <div>
+      <aside className="lg:bottom-0 lg:fixed lg:pl-5">
+        <div className="xl:w-12">
+          <div className="lg:w-16">
             <Image src={git} alt="git"/>
           </div>
-          <div>
+          <div className="lg:w-16">
             <Image src={twitter} alt="twitter"/>
           </div>
-          <div>
+          <div className="lg:w-16">
             <Image src={links} alt="links"/>
           </div>
-          <div>
+          <div className="lg:w-16">
             <Image src={bar} alt="bar"/>
           </div>
         </div>
