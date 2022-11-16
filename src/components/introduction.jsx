@@ -1,4 +1,6 @@
 import Image from "next/image";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 let styles = {};
 
@@ -25,7 +27,7 @@ const Introduction = () => {
       </div>
       <div className="pt-7 flex justify-center">
         <button className="border-customgreen border-2 pt-2 pb-2 pl-8 pr-8 text-white font-bold cursor-pointer rounded">
-          Savoir plus
+          Mon CV !
         </button>
       </div>
     </div>

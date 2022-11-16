@@ -64,7 +64,7 @@ const Competences = () => {
                   <Image src={Sql} alt="js" />
                 </div>
                 <div className="w-20">
-                  <Image src={Nodejs} alt="react" />
+                  <Image src={Nodejs} alt="node" />
                 </div>
                 <div className="w-32">
                   <Image src={Nextjs} alt="next" />

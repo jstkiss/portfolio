@@ -1,17 +1,6 @@
-.fontNunito {
-  font-family: "Nunito", sans-serif;
+html,body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
 }
-/* footer.jsx > FTsection , introduction.jsx > INTdiv4 */
-
-.fontMeddon {
-  font-family: "Meddon", cursive;
-}
-/* header.jsx > HDdiv1h1 */
-
-.fontArchivoBlack {
-  font-family: "Archivo Black", sans-serif;
-}
-/* introduction.jsx > INTdiv3 */
 
 /* Position and sizing of burger button */
 .bm-burger-button {

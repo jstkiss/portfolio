@@ -7,6 +7,8 @@ import git from "../assets/img/github.png";
 import twitter from "../assets/img/twitter.png";
 import { Twitter } from "@mui/icons-material";
 import folder from "@src/assets/img/folder.png";
+import { useEffect } from "react";
+import Aos from "aos";
 
 let styles = {};
 
@@ -58,7 +60,7 @@ const Projects = () => {
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
-                  Meta-Dev
+                  Meta-Dev en groupe
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">
                   Projet Meta-Dev
@@ -71,6 +73,40 @@ const Projects = () => {
                   Techno utilisé : <br />
                   <span className="text-customgreen">
                     Js/Webpack/Tailwind/Suite Adobe/Figma
+                  </span>
+                </p>
+                <Link href="/">
+                  <div className="flex items-center">
+                    <div className="w-12">
+                      <Image href="#" src={git} alt="git" />
+                    </div>
+                    <div className="w-10">
+                      <Image href="#" src={folder} alt="git" />
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-8">
+          <div className="">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Projet seul
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Projet Maze Bank
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card&apos;s content.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">
+                    Js/Webpack/Tailwind
                   </span>
                 </p>
                 <Link href="/">
@@ -107,6 +143,38 @@ const Projects = () => {
                 </p>
                 <Link href="/">
                   <div className="flex items-center">
+                    <div className="w-10">
+                      <Image href="#" src={folder} alt="git" />
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-8">
+          <div>
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Film
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Projet Banque de film
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card&apos;s content.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">Html/Css</span>
+                </p>
+                <Link href="/">
+                  <div className="flex items-center">
+                    <div className="w-12">
+                      <Image href="#" src={git} alt="git" />
+                    </div>
                     <div className="w-10">
                       <Image href="#" src={folder} alt="git" />
                     </div>
