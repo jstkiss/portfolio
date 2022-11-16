@@ -8,7 +8,7 @@ const Informations = () => {
   return (
     <div className="mt-96">
       <div className="flex items-center">
-        <h1 className="text-customgreen pl-7 text-2xl pr-3">
+        <h1 className="text-customgreen pl-7 text-xl pr-3">
           01.<span className="text-customsky font-bold pl-2">Qui je suis</span>
         </h1>
         <hr className="text-customsky w-52" />

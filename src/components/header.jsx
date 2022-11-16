@@ -5,7 +5,7 @@ import Navbar from "@src/components/navbar";
 
 const Header = () => {
   return (
-    <div className="bg-customblue h-28">
+    <div className="bg-customblue h-40">
       <Navbar />
     </div>
   );
