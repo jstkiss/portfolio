@@ -11,7 +11,7 @@ const Informations = () => {
       <div className="flex items-center">
         <h1 className="text-customgreen pl-7 text-xl pr-3">
           01.
-          <span className="text-customsky font-bold pl-2">Qui suis je ?</span>
+          <span className="text-customsky font-bold pl-2">Qui suis je ??</span>
         </h1>
         <hr className="text-customsky w-60" />
       </div>
