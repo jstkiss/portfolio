@@ -11,7 +11,7 @@
   "dependencies": {
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.8",
-    "@netlify/plugin-nextjs": "^4.25.0",
+    "@netlify/plugin-nextjs": "^4.29.1",
     "@nextui-org/react": "^1.0.0-beta.10",
     "aos": "^3.0.0-beta.6",
     "embla-carousel-react": "^7.0.5",
