@@ -22,11 +22,11 @@ const Projects = () => {
               Mes Projets
             </span>
           </h1>
-          <hr className="text-customsky w-48 lg:w-96" />
+          <hr className="text-customsky w-52 lg:w-96" />
       </div>
-      <div className="grid grid-rows-2 lg:grid lg:grid-cols-2">
-        <div data-aos="zoom-in-right" className="pl-8 pr-8 mt-10">
-          <div className="bg-booki lg:bg-no-repeat lg:bg-contain">
+      <div className="grid grid-rows-2 lg:grid lg:grid-cols-3">
+        <div data-aos="zoom-in-right" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="bg-booki lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
@@ -34,6 +34,40 @@ const Projects = () => {
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">
                   Projet Booki
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card&apos;s content.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">Html/Css</span>
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
+                  </div>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in-right" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Curriculum vitae
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Projet CV en vanilla
                 </h1>
                 <p className="text-customsky text-base mb-4">
                   Some quick example text to build on the card title and make up
@@ -95,7 +129,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div data-aos="zoom-in-right" className="p-8">
+        <div data-aos="zoom-in-right" className="p-8 xl:flex xl:justify-center">
           <div className="">
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">

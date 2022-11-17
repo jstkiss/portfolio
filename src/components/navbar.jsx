@@ -40,7 +40,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div>
-              <Link className="" href="">
+              <Link className="" href="#contact">
                 Contact
               </Link>
             </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
             </li>
             <li className="lg:pl-5">
               <Link href="/">
-                <a className="hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+                <a href="#contact" className="hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
                   <span className="text-customgreen">04.</span> Contact
                 </a>
               </Link>

@@ -43,7 +43,7 @@ const Informations = () => {
             accusantium alias culpa dolorum assumenda.
           </p>
         </div>
-        <div className="justify-center flex pt-8 hover:scale-110 transition duration-300 ease-in-out lg:col-start-2 ">
+        <div className="justify-center flex pt-8 hover:scale-110 transition duration-300 ease-in-out lg:col-start-2">
           <div className="w-full max-w-xs overflow-hidden rounded-lg shadow-lg">
             <Image
               className="object-cover w-full h-52"
