@@ -10,7 +10,7 @@ let styles = {};
 
 const Informations = () => {
   return (
-    <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28">
+    <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28">
       <div className="lg:ml-36 lg:grid lg:grid-cols-2">
         <div className="flex items-center col-span-2">
           <h1 className="text-customgreen pl-7 text-xl pr-3">
@@ -21,29 +21,24 @@ const Informations = () => {
           </h1>
           <hr className="text-customsky w-48 lg:w-80" />
         </div>
-        <div className="pl-7 pr-4 mt-14 lg:col-start-1 lg:flex lg:flex-col lg:justify-center">
+        <div className="pl-7 pr-4 pt-10 lg:col-start-1 lg:flex lg:flex-col lg:justify-center">
           <p className="text-customsky">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            optio officiis eaque error at temporibus a, reiciendis ad expedita
-            hic, distinctio quidem nulla provident iste repudiandae, esse
-            voluptatum laboriosam reprehenderit.
+            Je m'appelle Cesa Mehdi j'ai 23 ans je suis actuellement en formation chez Acces Code School pour un titre
+            professionnel de <span className="text-customgreen">développeur web et web mobile </span>.
+            Avant ça j'ai fait un BAC pro système numirque option RISQ par la suite j'ai suivi un pré-apprentissage
+            <span className="text-customgreen"> développeur web </span>chez OpenClassrooms et j'ai intégré l'ACS en mai 2022
           </p>
           <br />
           <p className="text-customsky">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
-            iusto enim perferendis molestias blanditiis dolor inventore odio
-            consequuntur a asperiores natus minus unde magni, aperiam
-            accusantium alias culpa dolorum assumenda.
+            En parallèle je suis semi-pro sur Rocket League pour l'équipe <span className="text-customgreen"> @Infuria </span>
+            et Ambassadeur pour l'équipe <span className="text-customgreen"> @Wavy </span>. Je suis aussi <span className="text-customgreen"> Créateur de contenu sur Youtube et Twitch </span>.
           </p>
           <br />
           <p className="text-customsky">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
-            iusto enim perferendis molestias blanditiis dolor inventore odio
-            consequuntur a asperiores natus minus unde magni, aperiam
-            accusantium alias culpa dolorum assumenda.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio possimus molestiae magnam iusto maiores qui porro quam voluptates, commodi vero nemo cupiditate. Distinctio laborum et laudantium omnis. Nam, omnis est!
           </p>
         </div>
-        <div className="justify-center flex pt-8 hover:scale-110 transition duration-300 ease-in-out lg:col-start-2">
+        <div className="justify-center flex hover:scale-110 transition duration-300 ease-in-out lg:col-start-2">
           <div className="w-full max-w-xs overflow-hidden rounded-lg shadow-lg">
             <Image
               className="object-cover w-full h-52"

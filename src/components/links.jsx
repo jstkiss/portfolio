@@ -15,17 +15,17 @@ const Links = () => {
       <aside className="lg:bottom-0 lg:fixed lg:pl-5">
         <div className="xl:w-12">
           <div className="lg:w-16 cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/jstkiss" target="_blank" rel="noopener noreferrer">
               <Image src={git} alt="git" />
             </a>
           </div>
           <div className="lg:w-16 cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/ItsJSTKISS" target="_blank" rel="noopener noreferrer">
               <Image src={twitter} alt="twitter" />
             </a>
           </div>
           <div className="lg:w-16 cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mehdi-c-4a00aa139/" target="_blank" rel="noopener noreferrer">
               <Image src={links} alt="links" />
             </a>
           </div>

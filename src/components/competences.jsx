@@ -26,6 +26,7 @@ let styles = {};
 const Competences = () => {
   return (
     <div
+      data-aos-once="false"
       data-aos="zoom-in-up"
       data-aos-duration="1000"
       data-aos-delay="50"

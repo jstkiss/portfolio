@@ -16,29 +16,35 @@ const Footer = () => {
       <div className="flex lg:hidden justify-center">
         <div className="flex justify-center">
           <div className="w-16">
-            <Link href="https://twitter.com/ItsJSTKISS">
-              <a className="">
-                <Image src={twitter} alt="tweet" />
-              </a>
-            </Link>
+            <a
+              href="https://twitter.com/ItsJSTKISS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={twitter} alt="twitter" />
+            </a>
           </div>
         </div>
         <div className="flex justify-center pl-5">
           <div className="w-16">
-            <Link href="https://github.com/jstkiss">
-              <a className="">
-                <Image src={git} alt="git" />
-              </a>
-            </Link>
+            <a
+              href="https://github.com/jstkiss"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={git} alt="git" />
+            </a>
           </div>
         </div>
         <div className="flex justify-center pl-5">
           <div className="w-16">
-            <Link href="https://www.linkedin.com/in/mehdi-c-4a00aa139/">
-              <a className="">
-                <Image src={links} alt="link" />
-              </a>
-            </Link>
+            <a
+              href="https://www.linkedin.com/in/mehdi-c-4a00aa139/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={links} alt="links" />
+            </a>
           </div>
         </div>
       </div>

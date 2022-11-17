@@ -14,7 +14,7 @@ let styles = {};
 
 const Projects = () => {
   return (
-    <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36">
+    <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36">
       <div className="flex items-center mt-10">
       <h1 className="text-customgreen pl-7 text-xl pr-3">
             03.
@@ -22,7 +22,7 @@ const Projects = () => {
               Mes Projets
             </span>
           </h1>
-          <hr className="text-customsky w-52 lg:w-96" />
+          <hr className="text-customsky w-48 lg:w-96" />
       </div>
       <div className="grid grid-rows-2 lg:grid lg:grid-cols-3">
         <div data-aos="zoom-in-right" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">

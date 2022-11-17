@@ -13,7 +13,9 @@ let styles = {};
 
 const Contact = () => {
   return (
-    <div id="contact"
+    <div
+      id="contact"
+      data-aos-once="false"
       data-aos="zoom-in-up"
       data-aos-duration="1000"
       data-aos-delay="50"

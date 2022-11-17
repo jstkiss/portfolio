@@ -7,7 +7,7 @@ let styles = {};
 
 const Introduction = () => {
   return (
-    <div  className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50">
+    <div data-aos-once="false" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50">
       <div className="">
         <h3 className="text-customgreen text-1xl lg:text-2xl">
           Bonjour,<span className="pl-3">mon nom est</span>
