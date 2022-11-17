@@ -21,7 +21,7 @@ const Informations = () => {
           </h1>
           <hr className="text-customsky w-48 lg:w-80" />
         </div>
-        <div className="pl-7 pr-4 mt-14 lg:col-start-1">
+        <div className="pl-7 pr-4 mt-14 lg:col-start-1 lg:flex lg:flex-col lg:justify-center">
           <p className="text-customsky">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             optio officiis eaque error at temporibus a, reiciendis ad expedita
