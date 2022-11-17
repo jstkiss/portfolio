@@ -30,10 +30,12 @@ export default function Document() {
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
             <script defer src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js" />
-
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
             {/* tailwind elements */}
             </Head>
             <body className="bg-customblue">
+            <script defer src="https://unpkg.com/aos@next/dist/aos.js%22%3E"/>
+            <script defer>AOS.init();</script>
                 <Main />
                 <NextScript />
             </body>

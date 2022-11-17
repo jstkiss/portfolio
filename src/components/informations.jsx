@@ -3,21 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 import Iframe from "react-iframe";
 import Moi from "../assets/img/moi.png";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 let styles = {};
 
 const Informations = () => {
   return (
-    <div className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28">
+    <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28">
       <div className="lg:ml-36 lg:grid lg:grid-cols-2">
         <div className="flex items-center col-span-2">
           <h1 className="text-customgreen pl-7 text-xl pr-3">
             01.
-            <span className="text-customsky font-bold lg:text-4xl pl-2">
+            <span className="text-customsky font-bold text-xl lg:text-4xl pl-2">
               Qui suis je ?
             </span>
           </h1>
-          <hr className="text-customsky w-56" />
+          <hr className="text-customsky w-48 lg:w-80" />
         </div>
         <div className="pl-7 pr-4 mt-14 lg:col-start-1">
           <p className="text-customsky">
@@ -42,15 +44,15 @@ const Informations = () => {
           </p>
         </div>
         <div className="justify-center flex pt-8 hover:scale-110 transition duration-300 ease-in-out lg:col-start-2 ">
-          <div className="w-full max-w-xs overflow-hidden bg-customgreen rounded-lg shadow-lg">
+          <div className="w-full max-w-xs overflow-hidden rounded-lg shadow-lg">
             <Image
-              className="object-cover w-full h-52 bg-customsky"
+              className="object-cover w-full h-52"
               src={Moi}
               alt="avatar"
             />
-            <div className="py-5 text-center">
+            <div className="py-5 text-center text-customgreen">
               <p>@JSTKiss</p>
-              <span className="text-sm text-black">
+              <span className="text-sm text-customsky">
                 Streamer / Trader / Semin-pro / Développeur
               </span>
             </div>

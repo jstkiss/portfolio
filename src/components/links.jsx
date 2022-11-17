@@ -7,26 +7,30 @@ import twitter from "../assets/img/twitter.png";
 import links from "../assets/img/links.png";
 import bar from "../assets/img/bar.png";
 
-let styles = {
-    
-};
+let styles = {};
 
 const Links = () => {
   return (
-    <div>
+    <div className="lg:flex hidden">
       <aside className="lg:bottom-0 lg:fixed lg:pl-5">
         <div className="xl:w-12">
-          <div className="lg:w-16">
-            <Image src={git} alt="git"/>
+          <div className="lg:w-16 cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <Image src={git} alt="git" />
+            </a>
+          </div>
+          <div className="lg:w-16 cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <Image src={twitter} alt="twitter" />
+            </a>
+          </div>
+          <div className="lg:w-16 cursor-pointer hover:scale-125 hover:ease-in hover:duration-300">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <Image src={links} alt="links" />
+            </a>
           </div>
           <div className="lg:w-16">
-            <Image src={twitter} alt="twitter"/>
-          </div>
-          <div className="lg:w-16">
-            <Image src={links} alt="links"/>
-          </div>
-          <div className="lg:w-16">
-            <Image src={bar} alt="bar"/>
+            <Image src={bar} alt="bar" />
           </div>
         </div>
       </aside>

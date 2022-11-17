@@ -10,24 +10,25 @@ import folder from "@src/assets/img/folder.png";
 import { useEffect } from "react";
 import Aos from "aos";
 
-
 let styles = {};
 
 const Projects = () => {
   return (
-    <div className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36">
+    <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36">
       <div className="flex items-center mt-10">
-        <h1 className="text-customgreen pl-7 text-2xl pr-3">
-          03.
-          <span className="text-customsky font-bold pl-2">Mes Projets</span>
-        </h1>
-        <hr className="text-customsky w-52" />
+      <h1 className="text-customgreen pl-7 text-xl pr-3">
+            03.
+            <span className="text-customsky font-bold text-xl lg:text-4xl pl-2">
+              Mes Projets
+            </span>
+          </h1>
+          <hr className="text-customsky w-48 lg:w-96" />
       </div>
-      <div className="grid grid-rows-3">
-        <div className="pl-8 pr-8 mt-10">
-          <div className="bg-booki">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
-              <div className="p-6 ">
+      <div className="grid grid-rows-2 lg:grid lg:grid-cols-2">
+        <div data-aos="zoom-in-right" className="pl-8 pr-8 mt-10">
+          <div className="bg-booki lg:bg-no-repeat lg:bg-contain">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+              <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Premier Projet
                 </h1>
@@ -42,23 +43,25 @@ const Projects = () => {
                   Techno utilisé : <br />
                   <span className="text-customgreen">Html/Css</span>
                 </p>
-                <Link href="/">
-                  <div className="flex items-center">
-                    <div className="w-12">
-                      <Image href="#" src={git} alt="git" />
-                    </div>
-                    <div className="w-10">
-                      <Image href="#" src={folder} alt="git" />
-                    </div>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
                   </div>
-                </Link>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-8">
-          <div className="bg-service">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+        <div data-aos="zoom-in-left" className="p-8">
+          <div className="bg-service lg:bg-no-repeat lg:bg-contain">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Meta-Dev en groupe
@@ -76,23 +79,25 @@ const Projects = () => {
                     Js/Webpack/Tailwind/Suite Adobe/Figma
                   </span>
                 </p>
-                <Link href="/">
-                  <div className="flex items-center">
-                    <div className="w-12">
-                      <Image href="#" src={git} alt="git" />
-                    </div>
-                    <div className="w-10">
-                      <Image href="#" src={folder} alt="git" />
-                    </div>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
                   </div>
-                </Link>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-8">
+        <div data-aos="zoom-in-right" className="p-8">
           <div className="">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Projet seul
@@ -106,27 +111,27 @@ const Projects = () => {
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
-                  <span className="text-customgreen">
-                    Js/Webpack/Tailwind
-                  </span>
+                  <span className="text-customgreen">Js/Webpack/Tailwind</span>
                 </p>
-                <Link href="/">
-                  <div className="flex items-center">
-                    <div className="w-12">
-                      <Image href="#" src={git} alt="git" />
-                    </div>
-                    <div className="w-10">
-                      <Image href="#" src={folder} alt="git" />
-                    </div>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
                   </div>
-                </Link>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-8">
+        <div data-aos="zoom-in-left" className="p-8">
           <div>
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Film
@@ -142,16 +147,18 @@ const Projects = () => {
                   Techno utilisé : <br />
                   <span className="text-customgreen">Html/Css</span>
                 </p>
-                <Link href="/">
-                  <div className="flex items-center">
-                    <div className="w-12">
-                      <Image href="#" src={git} alt="git" />
-                    </div>
-                    <div className="w-10">
-                      <Image href="#" src={folder} alt="git" />
-                    </div>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
                   </div>
-                </Link>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

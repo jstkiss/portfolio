@@ -12,7 +12,7 @@ import Iframe from "react-iframe";
 const Navbar = () => {
   return (
     <div className="lg:grid lg:grid-cols-2 lg:h-40">
-      <div>
+      <div className="lg:hidden">
         <Menu>
           <div className="grid grid-rows-5">
             <div>
@@ -47,27 +47,35 @@ const Navbar = () => {
           </div>
         </Menu>
       </div>
-      <div className="pt-3">
+      <div className="lg:col-start-2 lg:flex hidden lg:items-center lg:justify-center">
         <nav className="text-customsky">
           <ul className="lg:flex">
             <li>
               <Link href="/">
-                <a className=""><span className="text-customgreen">01.</span>Moi</a>
+                <a className="hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+                  <span className="text-customgreen">01.</span> Introduction
+                </a>
               </Link>
             </li>
             <li className="lg:pl-5">
               <Link href="/">
-                <a className=""><span className="text-customgreen">02.</span>Mes compétences</a>
+                <a className="hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+                  <span className="text-customgreen">02.</span> Mes compétences
+                </a>
               </Link>
             </li>
             <li className="lg:pl-5">
               <Link href="/">
-                <a className=""><span className="text-customgreen">03.</span>Mes projets</a>
+                <a className="hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+                  <span className="text-customgreen">03.</span> Mes projets
+                </a>
               </Link>
             </li>
             <li className="lg:pl-5">
               <Link href="/">
-                <a className=""><span className="text-customgreen">04.</span>Activités complémentaires</a>
+                <a className="hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+                  <span className="text-customgreen">04.</span> Contact
+                </a>
               </Link>
             </li>
           </ul>

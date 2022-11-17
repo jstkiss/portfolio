@@ -1,12 +1,13 @@
 import "tailwindcss/tailwind.css";
 import "@src/assets/css/styles.css";
 import { useEffect } from "react";
-import Aos from "aos";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    Aos.init({
+    AOS.init({
       easing: "ease-out-cubic",
       once: true,
       offset: 50,

@@ -7,7 +7,6 @@ import Works from "@src/components/works";
 import Footer from "@src/components/footer";
 import AOS from 'aos';
 import Iframe from "react-iframe";
-import Botf from "@src/components/botf";
 import Contact from "@src/components/contact";
 import Links from "@src/components/links";
 
@@ -22,7 +21,6 @@ const HomePage = () => {
       <Links />
       <Competences />
       <Projects />
-      <Botf />
       <Contact />
       <Footer />
     </>

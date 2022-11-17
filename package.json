@@ -13,6 +13,7 @@
     "@mui/material": "^5.10.8",
     "@netlify/plugin-nextjs": "^4.29.1",
     "@nextui-org/react": "^1.0.0-beta.10",
+    "@react-three/fiber": "^8.9.1",
     "@rive-app/react-canvas": "^3.0.33",
     "aos": "^3.0.0-beta.6",
     "embla-carousel-react": "^7.0.5",
@@ -24,7 +25,9 @@
     "react-burger-menu": "^3.0.8",
     "react-dom": "18.2.0",
     "react-iframe": "^1.8.5",
+    "react-mailto": "^0.4.0",
     "react-responsive-carousel": "^3.2.23",
+    "three": "^0.146.0",
     "tw-elements": "^1.0.0-alpha12"
   },
   "devDependencies": {

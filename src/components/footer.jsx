@@ -12,32 +12,34 @@ let styles = {};
 
 const Footer = () => {
   return (
-    <footer className="grid grid-cols-3 grid-rows-2">
-      <div className="flex justify-center">
-        <div className="w-16">
-          <Link href="https://twitter.com/ItsJSTKISS">
-            <a className="">
-              <Image src={twitter} alt="tweet" />
-            </a>
-          </Link>
+    <footer className="pt-28">
+      <div className="flex lg:hidden justify-center">
+        <div className="flex justify-center">
+          <div className="w-16">
+            <Link href="https://twitter.com/ItsJSTKISS">
+              <a className="">
+                <Image src={twitter} alt="tweet" />
+              </a>
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className="flex justify-center">
-        <div className="w-16">
-          <Link href="https://github.com/jstkiss">
-            <a className="">
-              <Image src={git} alt="git" />
-            </a>
-          </Link>
+        <div className="flex justify-center pl-5">
+          <div className="w-16">
+            <Link href="https://github.com/jstkiss">
+              <a className="">
+                <Image src={git} alt="git" />
+              </a>
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className="flex justify-center">
-        <div className="w-16">
-          <Link href="https://www.linkedin.com/in/mehdi-c-4a00aa139/">
-            <a className="">
-              <Image src={links} alt="link" />
-            </a>
-          </Link>
+        <div className="flex justify-center pl-5">
+          <div className="w-16">
+            <Link href="https://www.linkedin.com/in/mehdi-c-4a00aa139/">
+              <a className="">
+                <Image src={links} alt="link" />
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="flex justify-center col-span-3 text-white">
