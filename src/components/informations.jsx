@@ -23,15 +23,15 @@ const Informations = () => {
         </div>
         <div className="pl-7 pr-4 pt-10 lg:col-start-1 lg:flex lg:flex-col lg:justify-center">
           <p className="text-customsky">
-            Je m'appelle Cesa Mehdi j'ai 23 ans je suis actuellement en formation chez Acces Code School pour un titre
+            Je m&rsquo;appelle Cesa Mehdi j&rsquo;ai 23 ans je suis actuellement en formation chez Acces Code School pour un titre
             professionnel de <span className="text-customgreen">développeur web et web mobile </span>.
-            Avant ça j'ai fait un BAC pro système numirque option RISQ par la suite j'ai suivi un pré-apprentissage
-            <span className="text-customgreen"> développeur web </span>chez OpenClassrooms et j'ai intégré l'ACS en mai 2022
+            Avant ça j&rsquo;ai fait un BAC pro système numirque option RISQ par la suite j&rsquo;ai suivi un pré-apprentissage
+            <span className="text-customgreen"> développeur web </span>chez OpenClassrooms et j&rsquo;ai intégré l&rsquo;ACS en mai 2022
           </p>
           <br />
           <p className="text-customsky">
-            En parallèle je suis semi-pro sur Rocket League pour l'équipe <span className="text-customgreen"> @Infuria </span>
-            et Ambassadeur pour l'équipe <span className="text-customgreen"> @Wavy </span>. Je suis aussi <span className="text-customgreen"> Créateur de contenu sur Youtube et Twitch </span>.
+            En parallèle je suis semi-pro sur Rocket League pour l&rsquo;équipe <span className="text-customgreen"> @Infuria </span>
+            et Ambassadeur pour l&rsquo;équipe <span className="text-customgreen"> @Wavy </span>. Je suis aussi <span className="text-customgreen"> Créateur de contenu sur Youtube et Twitch </span>.
           </p>
           <br />
           <p className="text-customsky">
