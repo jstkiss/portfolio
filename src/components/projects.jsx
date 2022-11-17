@@ -19,7 +19,7 @@ const Projects = () => {
       <h1 className="text-customgreen pl-7 text-xl pr-3">
             03.
             <span className="text-customsky font-bold text-xl lg:text-4xl pl-2">
-              Mes Projets
+              Mes projets
             </span>
           </h1>
           <hr className="text-customsky w-48 lg:w-96" />

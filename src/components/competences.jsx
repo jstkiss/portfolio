@@ -36,7 +36,7 @@ const Competences = () => {
         <h1 className="text-customgreen pl-7 text-xl pr-3">
           02.
           <span className="text-customsky font-bold text-xl lg:text-4xl pl-2">
-            Mes Compétence
+            Mes compétences
           </span>
         </h1>
         <hr className="text-customsky w-32 lg:w-80" />
