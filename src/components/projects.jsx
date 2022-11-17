@@ -8,7 +8,9 @@ import twitter from "../assets/img/twitter.png";
 import { Twitter } from "@mui/icons-material";
 import folder from "@src/assets/img/folder.png";
 import { useEffect } from "react";
-import Aos from "aos";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 
 let styles = {};
 
@@ -25,19 +27,18 @@ const Projects = () => {
           <hr className="text-customsky w-48 lg:w-96" />
       </div>
       <div className="grid grid-rows-2 lg:grid lg:grid-cols-2">
-        <div data-aos="zoom-in-right" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
-          <div className="bg-booki lg:bg-no-repeat lg:bg-contain ">
+        <div data-aos="zoom-in-up" data-aos-once="false" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Premier Projet
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">
-                  Projet Booki
+                  Booki
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&apos;s content.
+                  Booki est mon premier projet pré-apprentissage chez <span className="text-customgreen"> OpenClassrooms </span>.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
@@ -59,25 +60,22 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div data-aos="zoom-in-left" className="p-8">
-          <div className="bg-service lg:bg-no-repeat lg:bg-contain">
+        <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
-                  Meta-Dev en groupe
+                  Projet
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">
-                  Projet Meta-Dev
+                  Meta-Dev
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&apos;s content.
+                  Meta Dev est mon premier projet de groupe chez l&rsquo;<span className="text-customgreen"> Acces Code School</span>.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
-                  <span className="text-customgreen">
-                    Js/Webpack/Tailwind/Suite Adobe/Figma
-                  </span>
+                  <span className="text-customgreen">Html/Css/Webpack/Js/Tailwind/Photoshop</span>
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
@@ -95,23 +93,22 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div data-aos="zoom-in-right" className="p-8 xl:flex xl:justify-center">
-          <div className="">
+        <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
-                  Projet seul
+                  Projet
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">
-                  Projet Maze Bank
+                  Maze Bank
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&apos;s content.
+                  Maze Bank est une application banquaire fictive.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
-                  <span className="text-customgreen">Js/Webpack/Tailwind</span>
+                  <span className="text-customgreen">Html/Css/Js/Tailwind</span>
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
@@ -129,19 +126,84 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div data-aos="zoom-in-left" className="p-8">
-          <div>
+        <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
-                  Film
+                  Projet
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">
-                  Projet Banque de film
+                  Curriculum vitae
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card&apos;s content.
+                  Faire notre cv en format web et développé en vanilla.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">Html/Css</span>
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
+                  </div>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Projet
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Future
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <p className="text-white text-base mb-4">
+                  Techno utilisé : <br />
+                  <span className="text-customgreen">Html/Css</span>
+                </p>
+                <div className="flex items-center">
+                  <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={git} alt="git" />
+                    </a>
+                  </div>
+                  <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                      <Image src={folder} alt="git" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-8 pr-8 mt-10 xl:flex xl:justify-center">
+          <div className="lg:bg-no-repeat lg:bg-contain ">
+            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+              <div className="p-6">
+                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                  Projet
+                </h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Future
+                </h1>
+                <p className="text-customsky text-base mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
