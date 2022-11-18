@@ -46,7 +46,7 @@ const Projects = () => {
                 </h1>
                 <h1 className="text-white text-2xl font-medium mb-2">Booki</h1>
                 <p className="text-customsky text-base mb-4">
-                  Booki est mon premier projet pré-apprentissage chez{" "}
+                  Booki est mon premier projet pré-apprentissage chez
                   <span className="text-customgreen"> OpenClassrooms </span>.
                 </p>
                 <p className="text-white text-base mb-4">
@@ -247,7 +247,7 @@ const Projects = () => {
                   Banque de film
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Site ou l'ont proposera de plusieurs genres de films.
+                  Site ou l&apos;ont proposera de plusieurs genres de films.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
