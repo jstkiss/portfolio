@@ -26,6 +26,7 @@ let styles = {};
 const Competences = () => {
   return (
     <div
+      id="skills"
       data-aos="zoom-in-up"
       data-aos-once="false"
       data-aos-duration="1000"
@@ -36,7 +37,7 @@ const Competences = () => {
         <h1 className="text-customgreen pl-7 text-xl pr-3">
           02.
           <span className="text-customsky font-bold text-xl lg:text-4xl pl-2">
-            Mes compétence
+            Mes compétences
           </span>
         </h1>
         <hr className="text-customsky w-32 lg:w-80" />
@@ -44,7 +45,13 @@ const Competences = () => {
       <section className="text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 ">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="lg:flex lg:justify-center">
+            <div
+              data-aos="zoom-in-up"
+              data-aos-once="false"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+              className="lg:flex lg:justify-center"
+            >
               <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:scale-125 hover:ease-in hover:duration-300 hover:border-customgreen hover:shadow-customgreen xl:w-72">
                 <div className="mt-1 text-sm text-white grid grid-cols-3 grid-rows-2 items-center">
                   <div className="w-20 lg:w-12">
@@ -68,7 +75,13 @@ const Competences = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="lg:flex lg:justify-center">
+            <div
+              data-aos="zoom-in-up"
+              data-aos-once="false"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+              className="lg:flex lg:justify-center"
+            >
               <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:scale-125 hover:ease-in hover:duration-300 hover:border-customgreen hover:shadow-customgreen xl:w-72">
                 <div className="mt-1 text-sm text-white grid grid-cols-3 grid-rows-2 items-center">
                   <div className="w-20 lg:w-14">
@@ -86,7 +99,13 @@ const Competences = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="lg:flex lg:justify-center">
+            <div
+              data-aos="zoom-in-up"
+              data-aos-once="false"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+              className="lg:flex lg:justify-center"
+            >
               <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:scale-125 hover:ease-in hover:duration-300 hover:border-customgreen hover:shadow-customgreen xl:w-72">
                 <div className="mt-1 text-sm text-white grid grid-cols-3 items-center">
                   <div className="w-20 lg:w-12">

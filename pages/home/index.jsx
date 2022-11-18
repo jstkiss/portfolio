@@ -9,6 +9,7 @@ import AOS from 'aos';
 import Iframe from "react-iframe";
 import Contact from "@src/components/contact";
 import Links from "@src/components/links";
+import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 // import { styles } from "./styles";
 

@@ -10,7 +10,7 @@ let styles = {};
 
 const Informations = () => {
   return (
-    <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28">
+    <div id="home" data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50" className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28">
       <div className="lg:ml-36 lg:grid lg:grid-cols-2">
         <div className="flex items-center col-span-2">
           <h1 className="text-customgreen pl-7 text-xl pr-3">
