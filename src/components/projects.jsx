@@ -1,15 +1,10 @@
 import Image from "next/image";
-import photoshop from "@src/assets/img/photoshop.jpg";
-import Html from "@src/assets/img/Html.png";
-import Link from "next/link";
-import Booki from "@src/assets/img/booki.png";
 import git from "../assets/img/github.png";
-import fleche from "../assets/img/fleche.png";
-import twitter from "../assets/img/twitter.png";
-import { Twitter } from "@mui/icons-material";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 let styles = {};
 
@@ -56,12 +51,12 @@ const Projects = () => {
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={git} alt="git" />
+                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={fleche} alt="git" />
+                      <FontAwesomeIcon icon="far fa-external-link" />
                     </a>
                   </div>
                 </div>
@@ -97,13 +92,13 @@ const Projects = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={git} alt="git" />
+                    <a href="https://github.com/mrp-171/agenceweb171" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={fleche} alt="git" />
+                      <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                     </a>
                   </div>
                 </div>
@@ -136,13 +131,13 @@ const Projects = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={git} alt="git" />
+                    <a href="https://github.com/jstkiss/mazebank" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={fleche} alt="git" />
+                      <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                     </a>
                   </div>
                 </div>
@@ -175,13 +170,13 @@ const Projects = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={git} alt="git" />
+                    <a href="https://github.com/jstkiss/cv-mehdi" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={fleche} alt="git" />
+                      <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                     </a>
                   </div>
                 </div>
@@ -217,12 +212,12 @@ const Projects = () => {
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={git} alt="git" />
+                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={fleche} alt="git" />
+                      <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                     </a>
                   </div>
                 </div>
@@ -256,12 +251,12 @@ const Projects = () => {
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={git} alt="git" />
+                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <Image src={fleche} alt="git" />
+                      <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                     </a>
                   </div>
                 </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Iframe from "react-iframe";
