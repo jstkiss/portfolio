@@ -32,7 +32,7 @@ const Informations = () => {
           </p>
           <br />
           <p className="text-customsky">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio possimus molestiae magnam iusto maiores qui porro quam voluptates, commodi vero nemo cupiditate. Distinctio laborum et laudantium omnis. Nam, omnis est!
+            J'aime le sport extrême comme le saut en parachute, le wingsuit, l&rsquo;alpinisme et la plongée.
           </p>
         </div>
         <div className="justify-center flex hover:scale-110 transition duration-300 ease-in-out lg:col-start-2">
