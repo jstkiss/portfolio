@@ -32,7 +32,7 @@ const Informations = () => {
           </p>
           <br />
           <p className="text-customsky">
-            J'aime le sport extrême comme le saut en parachute, le wingsuit, l&rsquo;alpinisme et la plongée.
+            J&rsquo;aime le sport extrême comme le saut en parachute, le wingsuit, l&rsquo;alpinisme et la plongée.
           </p>
         </div>
         <div className="justify-center flex hover:scale-110 transition duration-300 ease-in-out lg:col-start-2">
