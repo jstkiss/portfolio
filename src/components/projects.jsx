@@ -38,10 +38,10 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                <h1 className="text-white text-1xl font-medium mb-2">
                   Premier Projet
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
+                <h1 className="text-customgreen text-2xl font-medium mb-2 uppercase">
                   Booki
                 </h1>
                 <p className="text-customsky text-base mb-4">
@@ -87,10 +87,10 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                <h1 className="text-white text-1xl font-medium mb-2">
                   Projet
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
+                <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Meta-Dev
                 </h1>
                 <p className="text-customsky text-base mb-4">
@@ -136,10 +136,10 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                <h1 className="text-white text-1xl font-medium mb-2">
                   Projet
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
+                <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Maze Bank
                 </h1>
                 <p className="text-customsky text-base mb-4">
@@ -182,10 +182,10 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                <h1 className="text-white text-1xl font-medium mb-2">
                   Projet
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
+                <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Curriculum vitae
                 </h1>
                 <p className="text-customsky text-base mb-4">
@@ -228,10 +228,10 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                <h1 className="text-white text-1xl font-medium mb-2">
                   Projet en cour
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
+                <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Jeux vidéo
                 </h1>
                 <p className="text-customsky text-base mb-4">
@@ -272,10 +272,10 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-customgreen text-1xl font-medium mb-2">
+                <h1 className="text-white text-1xl font-medium mb-2">
                   Projet en cour
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">
+                <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Banque de film
                 </h1>
                 <p className="text-customsky text-base mb-4">
