@@ -12,7 +12,7 @@ import Nodejs from "@src/assets/img/Nodejs.png";
 import photoshop from "@src/assets/img/photoshop.jpg";
 import Gitlabs from "@src/assets/img/gitlabs.png"
 import Indesign from "@src/assets/img/InDesign.png"
-import after from "@src/assets/img/after.png"
+import after from "@src/assets/img/After.png"
 import animate from "@src/assets/img/Animate.png"
 import Syf from "@src/assets/img/syf.png"
 import premiere from "@src/assets/img/PremierePro.png";
