@@ -14,6 +14,11 @@ import Nodejs from "@src/assets/img/Nodejs.png";
 import Git from "@src/assets/img/Git.png";
 import Npm from "@src/assets/img/Npm.png";
 import photoshop from "@src/assets/img/photoshop.jpg";
+import Gitlabs from "@src/assets/img/gitlabs.png"
+import Indesign from "@src/assets/img/indesign.png"
+import after from "@src/assets/img/after.png"
+import animate from "@src/assets/img/animate.png"
+import Syf from "@src/assets/img/Syf.png"
 import premiere from "@src/assets/img/PremierePro.png";
 import Illustrator from "@src/assets/img/Illustrator.png";
 import { Button, Grid } from "@nextui-org/react";
@@ -53,23 +58,23 @@ const Competences = () => {
               className="lg:flex lg:justify-center"
             >
               <div className="block rounded-xl border border-customgreen p-8 shadow-xl transition hover:scale-125 hover:ease-in hover:duration-300 hover:border-customgreen hover:shadow-customgreen xl:w-72">
-                <div className="mt-1 text-sm text-white grid grid-cols-3 grid-rows-2 items-center">
-                  <div className="w-20 lg:w-12">
+                <div className="mt-1 text-sm text-white grid-cols-3 grid-rows-2 grid">
+                  <div className="w-20 lg:w-14 items-center justify-center flex">
                     <Image src={Html} alt="html" />
                   </div>
-                  <div className="w-20 lg:w-14">
+                  <div className="w-20 lg:w-14 items-center justify-center flex">
                     <Image src={Javascript} alt="js" />
                   </div>
-                  <div className="w-20 lg:w-14">
+                  <div className="w-20 lg:w-14 items-center justify-center flex">
+                    <Image src={Css} alt="css" />
+                  </div>
+                  <div className="w-20 lg:w-14 items-center justify-center flex">
                     <Image src={Reactjs} alt="react" />
                   </div>
-                  <div className="w-20 lg:w-14">
-                    <Image src={Nextjs} alt="next" />
-                  </div>
-                  <div className="w-20 lg:w-14">
+                  <div className="w-20 lg:w-14 items-center justify-center flex">
                     <Image src={Webpack} alt="web" />
                   </div>
-                  <div className="w-20 lg:w-14">
+                  <div className="w-20 lg:w-14 items-center justify-center flex">
                     <Image src={Tailwind} alt="tail" />
                   </div>
                 </div>
@@ -93,8 +98,14 @@ const Competences = () => {
                   <div className="w-20 lg:w-14">
                     <Image src={Nodejs} alt="node" />
                   </div>
-                  <div className="w-20 lg:w-14">
-                    <Image src={Wordpress} alt="next" />
+                  <div className="w-16 lg:w-12">
+                    <Image src={Nextjs} alt="next" />
+                  </div>
+                  <div className="w-16 lg:w-12">
+                    <Image src={Gitlabs} alt="gitlabs" />
+                  </div>
+                  <div className="w-16 lg:w-12">
+                    <Image src={Syf} alt="syf" />
                   </div>
                 </div>
               </div>
@@ -116,6 +127,15 @@ const Competences = () => {
                   </div>
                   <div className="w-20 lg:w-12">
                     <Image src={Illustrator} alt="react" />
+                  </div>
+                  <div className="w-20 lg:w-12">
+                    <Image src={Indesign} alt="ind" />
+                  </div>
+                  <div className="w-20 lg:w-12">
+                    <Image src={after} alt="aft" />
+                  </div>
+                  <div className="w-20 lg:w-12">
+                    <Image src={animate} alt="animat" />
                   </div>
                 </div>
               </div>

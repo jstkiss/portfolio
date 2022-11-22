@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 let styles = {};
 
@@ -31,32 +31,45 @@ const Projects = () => {
         <div
           data-aos="zoom-in-up"
           data-aos-once="false"
+          data-aos-duration="1000"
+          data-aos-delay="50"
           className="pl-8 pr-8 mt-10 xl:flex xl:justify-center"
         >
           <div className="lg:bg-no-repeat lg:bg-contain ">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+            <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Premier Projet
                 </h1>
-                <h1 className="text-white text-2xl font-medium mb-2">Booki</h1>
+                <h1 className="text-white text-2xl font-medium mb-2">
+                  Booki
+                </h1>
                 <p className="text-customsky text-base mb-4">
-                  Booki est mon premier projet pré-apprentissage chez
-                  <span className="text-customgreen"> OpenClassrooms </span>.
+                  Meta Dev est mon premier projet de groupe chez l&rsquo;
+                  <span className="text-customgreen"> Acces Code School</span>.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
-                  <span className="text-customgreen">Html/Css</span>
+                  <span className="text-customgreen">
+                    Html/Css/Webpack/Js/Tailwind/Photoshop
+                  </span>
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
+                    <a
+                      href="https://github.com/mrp-171/agenceweb171"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        className="text-white h-7"
+                        icon={faGithub}
+                      />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon="far fa-external-link" />
+                      <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                     </a>
                   </div>
                 </div>
@@ -72,7 +85,7 @@ const Projects = () => {
           className="pl-8 pr-8 mt-10 xl:flex xl:justify-center"
         >
           <div className="lg:bg-no-repeat lg:bg-contain ">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+            <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Projet
@@ -92,8 +105,15 @@ const Projects = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="https://github.com/mrp-171/agenceweb171" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
+                    <a
+                      href="https://github.com/mrp-171/agenceweb171"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        className="text-white h-7"
+                        icon={faGithub}
+                      />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
@@ -114,7 +134,7 @@ const Projects = () => {
           className="pl-8 pr-8 mt-10 xl:flex xl:justify-center"
         >
           <div className="lg:bg-no-repeat lg:bg-contain ">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+            <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Projet
@@ -131,8 +151,15 @@ const Projects = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="https://github.com/jstkiss/mazebank" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
+                    <a
+                      href="https://github.com/jstkiss/mazebank"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        className="text-white h-7"
+                        icon={faGithub}
+                      />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
@@ -153,7 +180,7 @@ const Projects = () => {
           className="pl-8 pr-8 mt-10 xl:flex xl:justify-center"
         >
           <div className="lg:bg-no-repeat lg:bg-contain ">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+            <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Projet
@@ -170,8 +197,15 @@ const Projects = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
-                    <a href="https://github.com/jstkiss/cv-mehdi" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
+                    <a
+                      href="https://github.com/jstkiss/cv-mehdi"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        className="text-white h-7"
+                        icon={faGithub}
+                      />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
@@ -192,7 +226,7 @@ const Projects = () => {
           className="pl-8 pr-8 mt-10 xl:flex xl:justify-center"
         >
           <div className="lg:bg-no-repeat lg:bg-contain ">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+            <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Projet en cour
@@ -212,7 +246,10 @@ const Projects = () => {
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
+                      <FontAwesomeIcon
+                        className="text-white h-7"
+                        icon={faGithub}
+                      />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">
@@ -233,7 +270,7 @@ const Projects = () => {
           className="pl-8 pr-8 mt-10 xl:flex xl:justify-center"
         >
           <div className="lg:bg-no-repeat lg:bg-contain ">
-            <div className="rounded-lg shadow-lg border backdrop-blur-sm border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
+            <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-customgreen text-1xl font-medium mb-2">
                   Projet en cour
@@ -251,7 +288,10 @@ const Projects = () => {
                 <div className="flex items-center">
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="text-white h-7" icon={faGithub} />
+                      <FontAwesomeIcon
+                        className="text-white h-7"
+                        icon={faGithub}
+                      />
                     </a>
                   </div>
                   <div className="w-10 hover:scale-125 hover:ease-in hover:duration-300">

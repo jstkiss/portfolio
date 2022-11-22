@@ -25,7 +25,7 @@ const Introduction = () => {
         </h1>
       </div>
       <div>
-        <p className="text-white pt-5 pb-3 text-sm lg:text-1xl lg:text-start">
+        <p className="text-white pt-5 pb-3 text-sm lg:text-1xl lg:text-start xl:text-start">
           Je suis passionné par les métiers de l’informatique,
           l&apos;entreprenariat et l&apos;investissement, j&apos;ai choisi le
           développement web car ce domaine réunit tout ce qui me passionne. Je
