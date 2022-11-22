@@ -229,7 +229,7 @@ const Projects = () => {
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-white text-1xl font-medium mb-2">
-                  Projet en cour
+                  Projet en cours
                 </h1>
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Jeux vidéo
@@ -273,7 +273,7 @@ const Projects = () => {
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
                 <h1 className="text-white text-1xl font-medium mb-2">
-                  Projet en cour
+                  Projet en cours
                 </h1>
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Banque de film
