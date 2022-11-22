@@ -45,8 +45,8 @@ const Projects = () => {
                   Booki
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Meta Dev est mon premier projet de groupe chez l&rsquo;
-                  <span className="text-customgreen"> Acces Code School</span>.
+                  Booki était le projet final de mon pré-apprentissage chez
+                  <span className="text-customgreen"> OpenClassrooms</span>.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
