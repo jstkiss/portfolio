@@ -11,10 +11,10 @@ import Sql from "@src/assets/img/Sql.png";
 import Nodejs from "@src/assets/img/Nodejs.png";
 import photoshop from "@src/assets/img/photoshop.jpg";
 import Gitlabs from "@src/assets/img/gitlabs.png"
-import Indesign from "@src/assets/img/indesign.png"
+import Indesign from "@src/assets/img/InDesign.png"
 import after from "@src/assets/img/after.png"
-import animate from "@src/assets/img/animate.png"
-import Syf from "@src/assets/img/Syf.png"
+import animate from "@src/assets/img/Animate.png"
+import Syf from "@src/assets/img/syf.png"
 import premiere from "@src/assets/img/PremierePro.png";
 import Illustrator from "@src/assets/img/Illustrator.png";
 import { Button, Grid } from "@nextui-org/react";
