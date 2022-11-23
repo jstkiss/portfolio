@@ -17,9 +17,7 @@ html,body{
 }
 
 /* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #a90000;
-}
+
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
@@ -38,7 +36,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 */
 .bm-menu-wrap {
   position: relative;
-  height: 100%;
 }
 
 /* BACKGROUND */
@@ -68,4 +65,42 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  height: 2000px;
+}
+
+.arrowUp {
+  width: 2rem;
+  height: 2rem;
+}
+
+.scrollToTop-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 48px;
+
+  background-color: #007acc;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.scrollToTop-btn:hover {
+  background: #005c99;
+}
+
 

@@ -16,7 +16,7 @@ const Projects = () => {
       data-aos-once="false"
       data-aos-duration="1000"
       data-aos-delay="50"
-      className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36"
+      className="lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36"
     >
       <div className="flex items-center mt-10">
         <h1 className="text-customgreen pl-7 text-xl pr-3">
@@ -143,7 +143,7 @@ const Projects = () => {
                   Maze Bank
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Maze Bank est une application bancaire fictive.
+                  Maze Bank est une application bancaire fictive, de dêpote et retrait d'argent.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
