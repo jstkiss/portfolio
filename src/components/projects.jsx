@@ -143,7 +143,7 @@ const Projects = () => {
                   Maze Bank
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Maze Bank est une application bancaire fictive, de dêpote et retrait d'argent.
+                  Maze Bank est une application bancaire fictive, de dêpote et retrait d&apos;argent.
                 </p>
                 <p className="text-white text-base mb-4">
                   Techno utilisé : <br />
