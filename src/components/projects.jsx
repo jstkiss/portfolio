@@ -143,7 +143,7 @@ const Projects = () => {
                   Maze Bank
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Création d'une application bancaire fictive afin de réaliser des dêpots et des retraits d&apos;argent.
+                  Création d&apos;une application bancaire fictive afin de réaliser des dêpots et des retraits d&apos;argent.
                 </p>
                 <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
@@ -235,7 +235,7 @@ const Projects = () => {
                   Jeux vidéo
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Réalisation en cours d'un jeux vidéo basé sur la culture G.
+                  Réalisation en cours d&apos;un jeux vidéo basé sur la culture G.
                 </p>
                 <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
@@ -279,7 +279,7 @@ const Projects = () => {
                   Banque de film
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Création d'un site proposant et affichant plusieurs genres de films.
+                  Création d&apos;un site proposant et affichant plusieurs genres de films.
                 </p>
                 <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
