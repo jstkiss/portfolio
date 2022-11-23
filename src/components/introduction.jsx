@@ -27,14 +27,14 @@ const Introduction = () => {
         <p className="text-white pt-5 pb-3 text-sm lg:text-1xl lg:text-start xl:text-start">
           Je suis passionné par les métiers de l’informatique,
           l&apos;entreprenariat et l&apos;investissement, j&apos;ai choisi le
-          développement web car ce domaine réunit tout ce qui me passionne. <br /> Je
+          développement web car ce domaine réunit tout ce qui me passionne. Je
           suis curieux, créatif et j&apos;aime apprendre. Ce qui me différencie,
           c&apos;est mon sens critique qui me permet d&apos;être force de
           proposition.
         </p>
       </div>
       <div className="pt-7 flex justify-center">
-        <a href="../../public/docs/CV_Mehdi_CESA.pdf" target="_blank" rel="noreferrer noopener" className="border-customgreen uppercase border-2 pt-2 pb-2 pl-8 pr-8 text-white font-bold cursor-pointer rounded hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+        <a href="./docs/CV_Mehdi_CESA.pdf" target="_blank" rel="noreferrer noopener" className="border-customgreen uppercase border-2 pt-2 pb-2 pl-8 pr-8 text-white font-bold cursor-pointer rounded hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
           Mon cv !
         </a>
       </div>

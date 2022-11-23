@@ -25,25 +25,24 @@ const Contact = () => {
         <h1>04. Et après ?</h1>
       </div>
       <div className="text-customsky text-4xl justify-center flex pt-5">
-        <h1>Entrer en contact</h1>
+        <h1>Entrons en contact !</h1>
       </div>
       <div className="text-customsky justify-center flex pt-5">
         <p className="text-center">
-          Bien que je ne sois pas actuellement à la recherche de nouvelles
-          opportunités, ma boîte de réception est toujours ouverte. Que vous
-          ayez une question ou que vous souhaitiez simplement dire bonjour, je
-          ferai de mon mieux pour vous répondre !
+          Actuellement à la recherche de nouvelles opportunités, ma boîte de réception est toujours ouverte. Que vous
+          ayez une question ou que vous souhaitiez simplement dire bonjour, je n&apos;hésiterai pas à vous répondre dans les plus brefs délais !
         </p>
       </div>
       <div class="flex flex-wrap pl-7 pr-4 pt-10 lg:pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36">
         <div class="p-2 w-1/2">
           <div class="relative">
             <label for="name" class="leading-7 text-sm text-white">
-              Name
+              Votre nom
               <input
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Votre nom complet"
                 class="w-full bg-customblue bg-opacity-50 rounded border border-customgreen focus:border-customgreen focus:bg-white focus:ring-2 focus:ring-customesky text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </label>
@@ -52,11 +51,12 @@ const Contact = () => {
         <div class="p-2 w-1/2">
           <div class="relative">
             <label for="email" class="leading-7 text-sm text-white">
-              Email
+              Votre e-mail
               <input
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Votre adresse e-mail"
                 class="w-full bg-customblue bg-opacity-50 rounded border border-customgreen focus:border-customgreen focus:bg-white focus:ring-2 focus:ring-customesky text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </label>
@@ -65,11 +65,12 @@ const Contact = () => {
         <div class="p-2 w-full">
           <div class="relative">
             <label for="message" class="leading-7 text-sm text-white">
-              Message
+              Votre message
             </label>
             <textarea
               id="message"
               name="message"
+              placeholder="Votre message"
               class="w-full bg-customblue bg-opacity-50 rounded border border-customgreen focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             ></textarea>
           </div>

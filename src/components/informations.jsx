@@ -20,19 +20,19 @@ const Informations = () => {
         </div>
         <div className="pl-7 pr-4 pt-10 lg:col-start-1 lg:flex lg:flex-col lg:justify-center">
           <p className="text-customsky">
-            Je m&rsquo;appelle Cesa Mehdi j&rsquo;ai 23 ans je suis actuellement en formation chez Acces Code School pour un titre
-            professionnel de <span className="text-customgreen">développeur web et web mobile </span>.
-            Avant ça j&rsquo;ai fait un BAC pro système numirque option RISQ par la suite j&rsquo;ai suivi un pré-apprentissage
-            <span className="text-customgreen"> développeur web </span>chez OpenClassrooms et j&rsquo;ai intégré l&rsquo;ACS en mai 2022
+            Je m&rsquo;appelle Cesa Mehdi, j&rsquo;ai 23 ans et je suis actuellement en formation chez l&apos;Acces Code School pour un titre
+            professionnel de <span className="text-customgreen">développeur web et web mobile</span>.
+            Avant ça, j&rsquo;ai fait un BAC pro systèmes numériques option RISQ puis j&rsquo;ai suivi un pré-apprentissage de
+            <span className="text-customgreen"> développeur web </span>chez OpenClassrooms. J&rsquo;ai par la suite, intégré la formation de l&rsquo;ACS en mai 2022.
           </p>
           <br />
           <p className="text-customsky">
-            En parallèle je suis semi-pro sur Rocket League pour l&rsquo;équipe <span className="text-customgreen"> @Infuria </span>
-            et Ambassadeur pour l&rsquo;équipe <span className="text-customgreen"> @Wavy </span>. Je suis aussi <span className="text-customgreen"> Créateur de contenu sur Youtube et Twitch </span>.
+            En parallèle, je suis semi-pro sur Rocket League pour l&rsquo;équipe <span className="text-customgreen">@Infuria </span>
+            et Ambassadeur pour l&rsquo;équipe <span className="text-customgreen">@Wavy</span> mais aussi <span className="text-customgreen">Créateur de contenu sur Youtube et Twitch </span>.
           </p>
           <br />
           <p className="text-customsky">
-            J&rsquo;aime le sport extrême comme le saut en parachute, le wingsuit, l&rsquo;alpinisme et la plongée.
+            En dehors du code, j&rsquo;aime le sport extrême comme le saut en parachute, le wingsuit, l&rsquo;alpinisme et la plongée.
           </p>
         </div>
         <div className="justify-center flex hover:scale-110 transition duration-300 ease-in-out lg:col-start-2">
@@ -45,7 +45,7 @@ const Informations = () => {
             <div className="py-5 text-center text-customgreen">
               <p>@JSTKiss</p>
               <span className="text-sm text-customsky">
-                Streamer / Trader / Semin-pro / Développeur
+                Streamer / Trader / Semi-pro / Développeur
               </span>
             </div>
           </div>

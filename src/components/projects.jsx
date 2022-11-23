@@ -38,17 +38,17 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-white text-1xl font-medium mb-2">
+                {/* <h1 className="text-customsky text-1xl font-medium mb-2">
                   Premier Projet
-                </h1>
+                </h1> */}
                 <h1 className="text-customgreen text-2xl font-medium mb-2 uppercase">
                   Booki
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Booki était le projet final de mon pré-apprentissage chez
+                  Projet final de mon pré-apprentissage chez
                   <span className="text-customgreen"> OpenClassrooms</span>.
                 </p>
-                <p className="text-white text-base mb-4">
+                <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
                   <span className="text-customgreen">
                     Html/Css/Webpack/Js/Tailwind/Photoshop
@@ -62,7 +62,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
-                        className="text-white h-7"
+                        className="text-customsky h-7"
                         icon={faGithub}
                       />
                     </a>
@@ -87,17 +87,17 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-white text-1xl font-medium mb-2">
+                {/* <h1 className="text-customsky text-1xl font-medium mb-2">
                   Projet
-                </h1>
+                </h1> */}
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Meta-Dev
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Meta Dev est mon premier projet de groupe chez l&rsquo;
+                  Premier projet de groupe chez l&rsquo;
                   <span className="text-customgreen"> Acces Code School</span>.
                 </p>
-                <p className="text-white text-base mb-4">
+                <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
                   <span className="text-customgreen">
                     Html/Css/Webpack/Js/Tailwind/Photoshop
@@ -111,7 +111,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
-                        className="text-white h-7"
+                        className="text-customsky h-7"
                         icon={faGithub}
                       />
                     </a>
@@ -136,16 +136,16 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-white text-1xl font-medium mb-2">
+                {/* <h1 className="text-customsky text-1xl font-medium mb-2">
                   Projet
-                </h1>
+                </h1> */}
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Maze Bank
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Maze Bank est une application bancaire fictive, de dêpote et retrait d&apos;argent.
+                  Création d'une application bancaire fictive afin de réaliser des dêpots et des retraits d&apos;argent.
                 </p>
-                <p className="text-white text-base mb-4">
+                <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
                   <span className="text-customgreen">Html/Css/Js/Tailwind</span>
                 </p>
@@ -157,7 +157,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
-                        className="text-white h-7"
+                        className="text-customsky h-7"
                         icon={faGithub}
                       />
                     </a>
@@ -182,16 +182,16 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-white text-1xl font-medium mb-2">
+                {/* <h1 className="text-customsky text-1xl font-medium mb-2">
                   Projet
-                </h1>
+                </h1> */}
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Curriculum vitae
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Faire notre cv en format web et développé en vanilla.
+                  Réalisation de mon CV en format web et développé en vanilla.
                 </p>
-                <p className="text-white text-base mb-4">
+                <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
                   <span className="text-customgreen">Html/Css</span>
                 </p>
@@ -203,7 +203,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
-                        className="text-white h-7"
+                        className="text-customsky h-7"
                         icon={faGithub}
                       />
                     </a>
@@ -228,16 +228,16 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-white text-1xl font-medium mb-2">
+                {/* <h1 className="text-customsky text-1xl font-medium mb-2">
                   Projet en cours
-                </h1>
+                </h1> */}
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Jeux vidéo
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Un jeu vidéo de culture G qui est en préparation.
+                  Réalisation en cours d'un jeux vidéo basé sur la culture G.
                 </p>
-                <p className="text-white text-base mb-4">
+                <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
                   <span className="text-customgreen">
                     Blender/Unreal/Suit Adobe
@@ -247,7 +247,7 @@ const Projects = () => {
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon
-                        className="text-white h-7"
+                        className="text-customsky h-7"
                         icon={faGithub}
                       />
                     </a>
@@ -272,16 +272,16 @@ const Projects = () => {
           <div className="lg:bg-no-repeat lg:bg-contain ">
             <div className="rounded-lg shadow-lg border border-customgreen max-w-sm hover:scale-110 transition duration-300 ease-in-out">
               <div className="p-6">
-                <h1 className="text-white text-1xl font-medium mb-2">
+                {/* <h1 className="text-customsky text-1xl font-medium mb-2">
                   Projet en cours
-                </h1>
+                </h1> */}
                 <h1 className="text-customgreen text-2xl font-medium mb-2">
                   Banque de film
                 </h1>
                 <p className="text-customsky text-base mb-4">
-                  Site ou l&apos;ont proposera de plusieurs genres de films.
+                  Création d'un site proposant et affichant plusieurs genres de films.
                 </p>
-                <p className="text-white text-base mb-4">
+                <p className="text-customsky text-base mb-4">
                   Techno utilisé : <br />
                   <span className="text-customgreen">Html/Css</span>
                 </p>
@@ -289,7 +289,7 @@ const Projects = () => {
                   <div className="w-12 hover:scale-125 hover:ease-in hover:duration-300">
                     <a href="http://" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon
-                        className="text-white h-7"
+                        className="text-customsky h-7"
                         icon={faGithub}
                       />
                     </a>
