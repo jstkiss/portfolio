@@ -124,13 +124,13 @@ const Competences = () => {
                   <div className="w-20 lg:w-12">
                     <Image src={Illustrator} alt="react" />
                   </div>
-                  <div className="w-20 lg:w-12">
+                  <div className="w-20 pt-2 lg:w-12">
                     <Image src={Indesign} alt="ind" />
                   </div>
-                  <div className="w-20 lg:w-12">
+                  <div className="w-20 pt-2 lg:w-12">
                     <Image src={after} alt="aft" />
                   </div>
-                  <div className="w-20 lg:w-12">
+                  <div className="w-20 pt-2 lg:w-12">
                     <Image src={animate} alt="animat" />
                   </div>
                 </div>
