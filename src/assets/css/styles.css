@@ -1,0 +1,206 @@
+html,body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ccd6f6;
+}
+
+/* Color/shape of burger icon bars on hover*/
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* CROIX*/
+.bm-cross {
+  background: #ccd6f6;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: relative;
+}
+
+/* BACKGROUND */
+.bm-menu {
+  background: #0a192f;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #ccd6f6;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  height: 2000px;
+}
+
+.arrowUp {
+  width: 2rem;
+  height: 2rem;
+}
+
+.scrollToTop-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 48px;
+
+  background-color: #007acc;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.scrollToTop-btn:hover {
+  background: #005c99;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  min-height: 75px;
+  padding: 1rem;
+  background-color: #0a192f;
+  color: white;
+}
+
+.navbar_link {
+  padding: 0 0.3rem;
+  color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: -100vw;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    padding: 2rem;
+    background-color: #0a192f;
+    visibility: hidden;
+    transition: all 0.8s ease-out;
+  }
+  .show-nav .navbar_links {
+    right: 0;
+    width: 100vw;
+    visibility: visible;
+  }
+  .navbar_item::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 3vw;
+    height: 1px;
+    background: white;
+  }
+  .navbar_item:last-child:after {
+    display: none;
+  }
+  .navbar_link {
+    display: block;
+    padding: 1.5rem;
+    font-size: 5vw;
+  }
+  .navbar_burger {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+  .navbar_burger:hover {
+    cursor: pointer;
+  }
+  .burger-bar,
+  .burger-bar::before,
+  .burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  .burger-bar::before,
+  .burger-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .burger-bar::before {
+    transform: translateY(-12px);
+  }
+  .burger-bar::after {
+    transform: translateY(12px);
+  }
+  .show-nav .burger-bar {
+    width: 0;
+    background: transparent;
+  }
+  .show-nav .burger-bar::before {
+    transform: rotate(45deg);
+  }
+  .show-nav .burger-bar::after {
+    transform: rotate(-45deg);
+  }
+}
+
+
+
+
