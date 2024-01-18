@@ -31,7 +31,7 @@ const Introduction = () => {
         </p>
       </div>
       <div className="pt-7 flex justify-center">
-        <a href="/cv.mehdi.cesa.pdf" target="_blank" rel="noreferrer noopener" className="border-customgreen uppercase border-2 pt-2 pb-2 pl-8 pr-8 text-white font-bold cursor-pointer rounded hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
+        <a href="/cv.cesa.mehdi.pdf" target="_blank" rel="noreferrer noopener" className="border-customgreen uppercase border-2 pt-2 pb-2 pl-8 pr-8 text-white font-bold cursor-pointer rounded hover:scale-125 hover:ease-in hover:duration-300 hover:text-customgreen">
           Mon cv !
         </a>
       </div>
