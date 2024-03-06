@@ -106,7 +106,7 @@ const Projects = () => {
             <h1 className="pt-1 text-3xl text-customsky">HappyDev</h1>
             <p className="mt-4 text-customnormal p-3">
               Future réseaux social pour développeur. L&apos;utilisateur pourra se créer un profil
-              customisé, il pourra ajouter une description, sa région, son travail, ses liens une redirection vers son portfolio ou autre, ajouter ses skill et pourra discuter avec tout la communauté ou avec un n&apos;autre développeur
+              customisé, il pourra ajouter une description, sa région, son travail, ses liens, ajouter ses skill et pourra discuter avec toute la communauté ou avec un autre développeur
             </p>
             <p className="pt-4 text-customnormal">
               Html, css, php, mysql, tailwindcss
