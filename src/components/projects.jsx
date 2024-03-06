@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { SlLogin } from "react-icons/sl";
 import Image from "next/image";
 import Discord from "../assets/img/discord.png";
+import HappyDev from "../assets/img/happydev.png";
 import Mid from "../assets/img/mid.png";
 import Projet from "../assets/img/projet.png";
 
@@ -28,7 +29,6 @@ const Projects = () => {
           </h1>
           <hr className="text-customsky w-48 lg:w-96" />
         </div>
-
         <div className="p-8 mt-12 flex">
           <section>
             <h3 className="text-customgreen">Projet en cours</h3>
@@ -42,17 +42,11 @@ const Projects = () => {
             <p className="pt-4 text-customnormal">
               Next.js, React, Tailwind, Framer-Motion
             </p>
-            <div className="flex text-2xl pt-4 text-customnormal">
-              <a href="https://github.com/jstkiss/mid-doc" target="_blank">
+            <div className="flex pt-4 text-customnormal">
+              <a className="text-2xl" href="https://github.com/jstkiss/mid-doc" target="_blank">
                 <FaGithub />
               </a>
-              <a
-                className="pl-4"
-                href="https://mid-doc.netlify.app"
-                target="_blank"
-              >
-                <SlLogin />
-              </a>
+              <a className="pl-4 text-1xl" href="https://mid-doc.netlify.app" target="_blank"><p>Voir plus</p></a>
             </div>
           </section>
           <div className="hidden lg:flex">
@@ -73,16 +67,11 @@ const Projects = () => {
             <p className="pt-4 text-customnormal">
               Next.js, React, Socket.io, Prisma, Tailwind, MySQL
             </p>
-            <div className="flex text-2xl pt-4 text-customnormal">
-              <a
-                href="https://github.com/jstkiss/discord-clone"
-                target="_blank"
-              >
+            <div className="flex pt-4 text-customnormal">
+              <a className="text-2xl" href="https://github.com/jstkiss/mid-doc" target="_blank">
                 <FaGithub />
               </a>
-              {/* <a className="pl-4" href="#">
-              <SlLogin />
-            </a> */}
+              <a className="pl-4 text-1xl" href="https://mid-doc.netlify.app" target="_blank"><p>En cours</p></a>
             </div>
           </section>
         </div>
@@ -97,22 +86,38 @@ const Projects = () => {
             <p className="pt-4 text-customnormal">
               Next.js, React, Tailwind, Framer-Motion
             </p>
-            <div className="flex text-2xl pt-4 text-customnormal">
-              <a href="https://github.com/jstkiss/projet1" target="_blank">
+            <div className="flex pt-4 text-customnormal">
+              <a className="text-2xl" href="https://github.com/jstkiss/mid-doc" target="_blank">
                 <FaGithub />
               </a>
-              <a
-                className="pl-4"
-                href="https://devtraining.netlify.app/"
-                target="_blank"
-              >
-                <SlLogin />
-              </a>
+              <a className="pl-4 text-1xl" href="https://mid-doc.netlify.app" target="_blank"><p>Voir plus</p></a>
             </div>
           </section>
           <div className="hidden lg:flex">
             <Image src={Projet} className="max-w-lg" alt="projet" />
           </div>
+        </div>
+        <div className="grid lg:grid-cols-2 p-8 mt-12">
+          <div className="hidden lg:flex">
+            <Image src={HappyDev} className="max-w-lg " alt="didi" />
+          </div>
+          <section className="">
+            <h3 className="text-customgreen">Projet en cours</h3>
+            <h1 className="pt-1 text-3xl text-customsky">HappyDev</h1>
+            <p className="mt-4 text-customnormal p-3">
+              Future réseaux social pour développeur. L&apos;utilisateur pourra se créer un profil
+              customisé, il pourra ajouter une description, sa région, son travail, ses liens une redirection vers son portfolio ou autre, ajouter ses skill et pourra discuter avec tout la communauté ou avec un n&apos;autre développeur
+            </p>
+            <p className="pt-4 text-customnormal">
+              Html, css, php, mysql, tailwindcss
+            </p>
+            <div className="flex pt-4 text-customnormal">
+              {/* <a className="text-2xl" href="#" target="_blank">
+                <FaGithub />
+              </a> */}
+              <a className="pl-4 text-1xl" href="" target="_blank"><p>En cours</p></a>
+            </div>
+          </section>
         </div>
       </motion.div>
     </motion.div>
