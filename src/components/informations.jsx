@@ -42,29 +42,29 @@ const Informations = () => {
               Je m&rsquo;appelle Cesa Mehdi, j&rsquo;ai 25 ans et je suis
               actuellement à la recherche d&apos;un CDI
               <span className="text-customgreen"> développeur web</span>. Avant
-              de vouloir devenir développeur web depuis l'âge de 17 ans je suis
-              devenue entrepreneur dans le domaine de l'Esport j'ai commencé
+              de vouloir devenir développeur web depuis l&rsquo;âge de 17 ans je suis
+              devenue entrepreneur dans le domaine de l&rsquo;Esport j&rsquo;ai commencé
               entant que joueur professionnel sur le jeu rocket league et aux
               files des années je suis devenue créateur de contenu sur les
-              réseaux. J'ai pu travailler avec de grandes entreprises comme
-              <span className="text-customgreen"> Nrj12, la SPA, Vitality, Alten, NBA</span> et plein d'autres.
+              réseaux. J&rsquo;ai pu travailler avec de grandes entreprises comme
+              <span className="text-customgreen"> Nrj12, la SPA, Vitality, Alten, NBA</span> et plein d&rsquo;autres.
             </p>
             <br />
             <p className="text-customsky">
-              Avec ces métiers j'ai pu monter en compétence dans différents
+              Avec ces métiers j&rsquo;ai pu monter en compétence dans différents
               domaines comment la création de visuel pour les marques ou du
               montage vidéo pour mes chaînes twitch et youtube et a géré mon
               image sur les réseaux comme twitter
               <br />
               <br />
-              Depuis un peu plus d'un an je suis Ambassadeur chez
+              Depuis un peu plus d&rsquo;un an je suis Ambassadeur chez
               <span className="text-customgreen"> @Monaco Esport </span>.
             </p>
             <br />
             <p className="text-customsky">
-              En dehors du code, je pratique du sport extrême comme l'alpinisme
-              ou le saut en parachute, grâce a mon ancien travail j'ai pu gravir
-              2 fois le mont blanc. J'aime regarder la formule 1 et la nba
+              En dehors du code, je pratique du sport extrême comme l&rsquo;alpinisme
+              ou le saut en parachute, grâce a mon ancien travail j&rsquo;ai pu gravir
+              2 fois le mont blanc. J&rsquo;aime regarder la formule 1 et la nba
             </p>
           </div>
           <div className="justify-center flex lg:col-start-2">
