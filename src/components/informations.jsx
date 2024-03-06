@@ -25,7 +25,7 @@ const Informations = () => {
       <motion.div
         id="home"
         className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:pt-28"
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn("right", "tween", 0.2, 1)}
       >
         <div className="lg:ml-36 lg:grid lg:grid-cols-2">
           <div className="flex items-center col-span-2">
@@ -39,26 +39,32 @@ const Informations = () => {
           </div>
           <div className="pl-7 pr-4 pt-10 lg:col-start-1 lg:flex lg:flex-col lg:justify-center">
             <p className="text-customsky">
-              Je m&rsquo;appelle Cesa Mehdi, j&rsquo;ai 24 ans et je suis
+              Je m&rsquo;appelle Cesa Mehdi, j&rsquo;ai 25 ans et je suis
               actuellement à la recherche d&apos;un CDI
               <span className="text-customgreen"> développeur web</span>. Avant
-              ça, j&rsquo;ai fait un BAC pro systèmes numériques option RISQ
-              puis j&rsquo;ai suivi un pré-apprentissage de
-              <span className="text-customgreen"> développeur web </span>chez
-              OpenClassrooms. J&rsquo;ai par la suite, intégré la formation de
-              l&rsquo;ACS en mai 2022.
+              de vouloir devenir développeur web depuis l'âge de 17 ans je suis
+              devenue entrepreneur dans le domaine de l'Esport j'ai commencé
+              entant que joueur professionnel sur le jeu rocket league et aux
+              files des années je suis devenue créateur de contenu sur les
+              réseaux. J'ai pu travailler avec de grandes entreprises comme
+              <span className="text-customgreen"> Nrj12, la SPA, Vitality, Alten, NBA</span> et plein d'autres.
             </p>
             <br />
             <p className="text-customsky">
-              En parallèle, j&rsquo;ai été joueur professionnel sur{" "}
-              <span className="text-customgreen">Rocket League</span> pendant 5
-              ans. Je suis actuellement Ambassadeur pour{" "}
-              <span className="text-customgreen">@Monaco Esport </span>.
+              Avec ces métiers j'ai pu monter en compétence dans différents
+              domaines comment la création de visuel pour les marques ou du
+              montage vidéo pour mes chaînes twitch et youtube et a géré mon
+              image sur les réseaux comme twitter
+              <br />
+              <br />
+              Depuis un peu plus d'un an je suis Ambassadeur chez
+              <span className="text-customgreen"> @Monaco Esport </span>.
             </p>
             <br />
             <p className="text-customsky">
-              En dehors du code, j&rsquo;aime le sport extrême comme le saut en
-              parachute, le wingsuit, l&rsquo;alpinisme et la plongée.
+              En dehors du code, je pratique du sport extrême comme l'alpinisme
+              ou le saut en parachute, grâce a mon ancien travail j'ai pu gravir
+              2 fois le mont blanc. J'aime regarder la formule 1 et la nba
             </p>
           </div>
           <div className="justify-center flex lg:col-start-2">

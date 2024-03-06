@@ -13,7 +13,7 @@ const Introduction = () => {
       className=""
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn("right", "tween", 0.2, 1)}
         className="pl-7 pr-4 pt-10 lg:pr-36 lg:pl-36 lg:mr-36 lg:ml-36"
       >
         <div className="">
@@ -28,17 +28,15 @@ const Introduction = () => {
         </div>
         <div>
           <h1 className="text-customsky font-bold text-4xl lg:text-6xl pt-5">
-            Je suis un développeur web
+            Je suis un développeur web full stack
           </h1>
         </div>
         <div>
-          <p className="text-white pt-5 pb-3 text-sm lg:text-1xl lg:text-start xl:text-start">
-            Je suis passionné par les métiers de l&apos;informatique,
-            l&apos;entreprenariat et l&apos;investissement, j&apos;ai choisi le
-            développement web car ce domaine réunit tout ce qui me passionne. Je
-            suis curieux, créatif et j&apos;aime apprendre. Ce qui me
-            différencie, c&apos;est mon sens critique qui me permet d&apos;être
-            force de proposition.
+          <p className="text-white pt-5 pb-3 text-sm lg:text-xl lg:text-start xl:text-start">
+            Mon apprentissage a été axé sur la maîtrise des langages de
+            programmation, la conception de sites web interactifs et la
+            résolution de problèmes techniques et mon engagement envers le
+            développement web ne se limite pas à mes études.
           </p>
         </div>
         <div className="pt-7 flex justify-center">
